@@ -1,0 +1,90 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #2b7a78;
+}
+
+/* Başlık Stili */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3aafa9;
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo .title {
+    margin-left: 8px;
+}
+
+.waste-counter {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: #2b7a78;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Ana İçerik Stili */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #3aafa9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #2b7a78;
+}
+
+/* Atık Geçmişi Stili */
+.waste-history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.waste-history li {
+    background: #e7ecef;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
